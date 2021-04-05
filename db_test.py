@@ -8,6 +8,7 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
+#Created Database
 mycursor.execute("CREATE DATABASE streaming_analytics_db")
 
 mycursor.execute("SHOW DATABASES")
