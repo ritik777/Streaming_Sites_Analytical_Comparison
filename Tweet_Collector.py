@@ -42,3 +42,9 @@ tweet_df = pd.DataFrame(data=users_locs,
                     columns=['user', "location","tweet"])
 print(tweet_df)
 
+#creating sample tweets to check connection
+#will make an object later that gives dataframe to the other file
+tweet_df.to_csv('sample_tweets.csv')
+
+
+
